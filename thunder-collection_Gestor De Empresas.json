@@ -1,0 +1,334 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Gestor De Empresas",
+    "dateExported": "2024-03-04T03:23:23.508Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "1717bda0-e6ea-46a0-b2de-46fa3c4adcdb",
+            "name": "Company",
+            "containerId": "",
+            "created": "2024-02-29T01:53:46.956Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "80454062-403f-4b34-80b0-35f00000f60f",
+            "name": "Admin",
+            "containerId": "",
+            "created": "2024-02-29T01:53:56.140Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "4aa90502-d9fc-4378-ae62-bb78fbcc59c4",
+            "name": "category",
+            "containerId": "",
+            "created": "2024-03-01T00:04:37.140Z",
+            "sortNum": 40000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "4908addd-4f4b-4584-a382-2552f2c1b446",
+            "colId": "6b1a23a3-4647-44fa-bab4-4d3e177a1e72",
+            "containerId": "80454062-403f-4b34-80b0-35f00000f60f",
+            "name": "save",
+            "url": "/save",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-28T22:20:14.179Z",
+            "modified": "2024-02-28T22:24:10.109Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Hans Juárez"
+                    },
+                    {
+                        "name": "email",
+                        "value": "hjuarez@gmail.com"
+                    },
+                    {
+                        "name": "username",
+                        "value": "hjuarez"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "46697054"
+                    },
+                    {
+                        "name": "password",
+                        "value": "wen"
+                    },
+                    {
+                        "name": "position",
+                        "value": "Jerente de Empresa"
+                    },
+                    {
+                        "name": "role",
+                        "value": "admin"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "d3bbf7cb-f90e-4d43-ba7c-bacff6de5912",
+            "colId": "6b1a23a3-4647-44fa-bab4-4d3e177a1e72",
+            "containerId": "80454062-403f-4b34-80b0-35f00000f60f",
+            "name": "login",
+            "url": "/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-28T22:25:56.137Z",
+            "modified": "2024-02-28T22:26:49.340Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "hjuarez"
+                    },
+                    {
+                        "name": "password",
+                        "value": "wen"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "ead5df97-bb7d-4ef4-89fa-714cc3ba40f6",
+            "colId": "6b1a23a3-4647-44fa-bab4-4d3e177a1e72",
+            "containerId": "80454062-403f-4b34-80b0-35f00000f60f",
+            "name": "test",
+            "url": "/test",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-28T22:27:09.368Z",
+            "modified": "2024-03-02T21:08:30.864Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRmYjI4YTY5NWE2NGYwNWJhYTVhMDYiLCJ1c2VybmFtZSI6ImhqdWFyZXoiLCJuYW1lIjoiSGFucyBKdcOhcmV6Iiwicm9sZSI6IkFETUlOIiwiaWF0IjoxNzA5NDEzNjcwLCJleHAiOjE3MDk0MjQ0NzB9.ewbfATu78Pj-8YSPC0i-8WyxXyha09-bA57UGUAqqXM"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "43100693-e69b-4895-88a7-d74ce3436862",
+            "colId": "6b1a23a3-4647-44fa-bab4-4d3e177a1e72",
+            "containerId": "80454062-403f-4b34-80b0-35f00000f60f",
+            "name": "update",
+            "url": "/update/65dfb28a695a64f05baa5a06",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-28T22:53:15.314Z",
+            "modified": "2024-02-28T22:55:39.711Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRmYjI4YTY5NWE2NGYwNWJhYTVhMDYiLCJ1c2VybmFtZSI6ImhqdWFyZXoiLCJuYW1lIjoiSGFucyBKdcOhcmV6Iiwicm9sZSI6IkFETUlOIiwiaWF0IjoxNzA5MTU5MjA5LCJleHAiOjE3MDkxNzAwMDl9.BM8cMR4m_Ftsanu-DWfER8RSxS0AQOU3kTaISktjPYY"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "email",
+                        "value": "ajuarez@gmail.com"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "92f07f9d-595c-4641-a438-c14778ab93f1",
+            "colId": "6b1a23a3-4647-44fa-bab4-4d3e177a1e72",
+            "containerId": "1717bda0-e6ea-46a0-b2de-46fa3c4adcdb",
+            "name": "save",
+            "url": "/company/save",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-02-29T01:55:23.315Z",
+            "modified": "2024-03-04T03:10:49.933Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRmYjI4YTY5NWE2NGYwNWJhYTVhMDYiLCJ1c2VybmFtZSI6ImhqdWFyZXoiLCJuYW1lIjoiSGFucyBKdcOhcmV6Iiwicm9sZSI6IkFETUlOIiwiaWF0IjoxNzA5MjUxOTA0LCJleHAiOjE3MDkyNjI3MDR9.rnJBnjzUc72KXtYW-ceenlKL7Hw98a0-sCTJMJv63Vw"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Takeda"
+                    },
+                    {
+                        "name": "impactLevel",
+                        "value": "Medio"
+                    },
+                    {
+                        "name": "yearsOfExperience",
+                        "value": "5"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "98091234"
+                    },
+                    {
+                        "name": "email",
+                        "value": "medinfolatam@takeda.com"
+                    },
+                    {
+                        "name": "category",
+                        "value": "65e4e8da2accb3dbb74a7098"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "259583d4-d3cf-439c-9719-7a9a3d6299c5",
+            "colId": "6b1a23a3-4647-44fa-bab4-4d3e177a1e72",
+            "containerId": "1717bda0-e6ea-46a0-b2de-46fa3c4adcdb",
+            "name": "companies",
+            "url": "/company/companies?sort=Z-A&yearsOfExperience=45",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-02-29T02:12:39.021Z",
+            "modified": "2024-03-04T03:23:13.650Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0YzFiNDMxNmMwOTBkZGVhMmVjODYiLCJ1c2VybmFtZSI6ImhqdWFyZXoiLCJuYW1lIjoiSGFucyBKdcOhcmV6Iiwicm9sZSI6IkFETUlOIiwiaWF0IjoxNzA5NTEzMDg1LCJleHAiOjE3MDk1MjM4ODV9.V7iUhmWpl5fW0ZvqBb8uyMLIOY8SA99HMRyVVl9qlTc"
+                }
+            ],
+            "params": [
+                {
+                    "name": "sort",
+                    "value": "Z-A",
+                    "isPath": false
+                },
+                {
+                    "name": "yearsOfExperience",
+                    "value": "45",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "43816e9d-e0c0-4bc4-934a-ef0a3aaf3cb1",
+            "colId": "6b1a23a3-4647-44fa-bab4-4d3e177a1e72",
+            "containerId": "4aa90502-d9fc-4378-ae62-bb78fbcc59c4",
+            "name": "save",
+            "url": "/register",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2024-03-01T00:04:58.229Z",
+            "modified": "2024-03-03T21:17:14.886Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "description",
+                        "value": "productos de alta calidad "
+                    },
+                    {
+                        "name": "name",
+                        "value": "Automoción"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "b0bc03ae-b334-44fd-bfa0-fc14ec59704e",
+            "colId": "6b1a23a3-4647-44fa-bab4-4d3e177a1e72",
+            "containerId": "1717bda0-e6ea-46a0-b2de-46fa3c4adcdb",
+            "name": "Excel",
+            "url": "/company/generate-report",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2024-03-03T06:26:11.511Z",
+            "modified": "2024-03-03T22:11:06.275Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "70831c6e-b3f5-47c0-bd11-8a99420af9d1",
+            "colId": "6b1a23a3-4647-44fa-bab4-4d3e177a1e72",
+            "containerId": "1717bda0-e6ea-46a0-b2de-46fa3c4adcdb",
+            "name": "update",
+            "url": "/company/update/65e4c9e2316c090ddea2ec8b",
+            "method": "PUT",
+            "sortNum": 120000,
+            "created": "2024-03-04T00:55:49.795Z",
+            "modified": "2024-03-04T01:13:06.535Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0YzFiNDMxNmMwOTBkZGVhMmVjODYiLCJ1c2VybmFtZSI6ImhqdWFyZXoiLCJuYW1lIjoiSGFucyBKdcOhcmV6Iiwicm9sZSI6IkFETUlOIiwiaWF0IjoxNzA5NTEzMDg1LCJleHAiOjE3MDk1MjM4ODV9.V7iUhmWpl5fW0ZvqBb8uyMLIOY8SA99HMRyVVl9qlTc"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "yearsOfExperience",
+                        "value": "45"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "99f3a46e-fe51-4b88-981e-2d216993dff9",
+            "colId": "6b1a23a3-4647-44fa-bab4-4d3e177a1e72",
+            "containerId": "4aa90502-d9fc-4378-ae62-bb78fbcc59c4",
+            "name": "update",
+            "url": "/updates/65e4c9c5316c090ddea2ec88",
+            "method": "PUT",
+            "sortNum": 130000,
+            "created": "2024-03-04T01:55:10.064Z",
+            "modified": "2024-03-04T02:07:03.700Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "description",
+                        "value": "hamburguesas rapidas"
+                    }
+                ]
+            },
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:2658"
+        }
+    }
+}
